@@ -2,6 +2,7 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass{res} 
+\usepackage{multicol}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 %\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
@@ -23,14 +24,58 @@
     
 \section{EDUCATION}
 	\rule{\textwidth}{0.5pt}
-	\vspace{8pt} 
+	\vspace{-0.3in} 
+	
 	{\sl Master of Science}, Electrical Engineering {\bf GPA 3.909}\hfill August 2012 - December 2015\\ 
 	Louisiana State University \hfill Baton Rouge, LA\\   
 	{\footnotesize Computer Engineering Concentration\\
-	PhD Progress: Passed PhD qualifying exam in Fall 2013. Will have completed all coursework by December 2015.}\\\\
+	PhD Progress: Passed PhD qualifying exam in Fall 2013. Completed all coursework  December 2015.}\\\\
+	\vspace{-0.49in}
+	\begin{multicols}{2}
+	{\footnotesize 
+		Research Topics and Interests: \vspace{-0.175in}
+		\begin{itemize}
+			\item High Performance Computer Architecture
+			\item Programming Optimizations
+			\item Memory Hierarchy
+			\item Cache Management
+			\item Parallel Programming Models \ldots
+			\end{itemize}
+		
+		Related Graduate Coursework:  \vspace{-0.175in}
+		\begin{itemize}
+			\item Computer Algorithms
+			\item GPU Programming
+			\item Structures of Computers and Computation
+			\item Advanced Computer Architecture
+			\item Models and Methods for Parallel Computing\ldots
+			\end{itemize}
+	}
+	\end{multicols}
+
 	{\sl Bachelor of Science}, Engineering Technology {\bf GPA 3.817} \hfill August 2008 - May 2012\\
 	Southeastern Louisiana University \hfill Hammond, LA\\
-	{\footnotesize Dual Concentration in Computer Engineering Technology and Mechanical Engineering Technology}\\
+	{\footnotesize Dual Concentration in Computer Engineering Technology and Mechanical Engineering Technology}\\\\
+		\vspace{-0.49in}
+		\begin{multicols}{2}
+			{\footnotesize 
+				Related Undergraduate Coursework: \vspace{-0.175in}
+				\begin{itemize}
+					\item Algorithm Design and Implementation
+					\item Game Algorithms and Design
+					\item Microprocessors and Interfacing \ldots
+				\end{itemize} 
+				\textvisiblespace %used to balance columns
+				\vspace{-0.175in}
+				\begin{itemize}
+					\item Object-Oriented Programming
+					\item Data Structures
+					\item Computer Architecture \ldots
+				\end{itemize}
+			}
+		\end{multicols}
+		
+	
 \section{INDUSTRY EXPERIENCE}
 	\vspace{0.005in}	
 	\rule{\textwidth}{0.5pt}
@@ -40,14 +85,14 @@
 		{\bf Engineering Intern} \> \hspace{0.3in}Panama City, FL  \\  
 		 Naval Surface Warfare Center PCD \> May 2015 \texttt{-} July 2015	
 	\end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-	The project consisted of autonomously launching and landing a quadcopter on an unmanned surface vehicle. An IRIS quadcopter, equipped with a Pixhawk controller, was outfitted with a Raspberry Pi backseat driver for autonomous control. Python, MAVlink and OpenCV were utilized to interface with the vehicle and provide autonomous control and image processing. Through image processing, an IR light source was identified and used to guide the quadcopter to the landing platform.
+	\vspace{8pt}The project consisted of autonomously launching and landing a quadcopter on an unmanned surface vehicle. An IRIS quadcopter, equipped with a Pixhawk controller, was outfitted with a Raspberry Pi backseat driver for autonomous control. Python, MAVlink and OpenCV were utilized to interface with the vehicle and provide autonomous control and image processing. Through image processing, an IR light source was identified and used to guide the quadcopter to the landing platform.
 		\vspace{-0.2in}
 	\begin{tabbing}
 		\hspace{4.155in}\=  \kill % set up two tab positions
 		{\bf Engineering Intern} \> \hspace{0.815in}Morgan City, LA \\
 		Oceaneering \>December 2011 \texttt{-} August 2012
 	\end{tabbing}\vspace{-20pt}
-	During this internship, my primary objective was maintaining, troubleshooting, and debugging underwater ROV hardware units returning from offshore. Working with two other engineering undergraduates from different engineering backgrounds, additional tasks included creating models in SolidWorks, providing offshore technical support, and wiring equipment modules for deployment.
+	\vspace{8pt}During this internship, my primary objective was maintaining, troubleshooting, and debugging underwater ROV hardware units returning from offshore. Working with two other engineering undergraduates from different engineering backgrounds, additional tasks included creating models in SolidWorks, providing offshore technical support, and wiring equipment modules for deployment.
 
 \section{ACADEMIC EXPERIENCE}
 	\vspace{0.005in}	
@@ -58,14 +103,14 @@
 		{\bf Graduate Teaching Assistant} \> \hspace{0.3in}Baton Rouge, LA \\
 		Louisiana State University \> August 2015 \texttt{-} Present
 	\end{tabbing}\vspace{-20pt}
-	Teaching assistant for EE 4755 \texttt{-} Digital Design Using HDLs and EE 3752 \texttt{-} Microprocessor Systems.
+	\vspace{8pt}Teaching assistant for EE 4755 \texttt{-} Digital Design Using HDLs and EE 3752 \texttt{-} Microprocessor Systems.
 	\vspace{-0.35in}
 	\begin{tabbing}
 		\hspace{4.38in}\=  \kill % set up two tab positions
 		{\bf Graduate Research Assistant}\> \hspace{0.62in}Baton Rouge,LA \\
 		Louisiana State University     \>August 2012 \texttt{-} March 2015
 	\end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-	Research in Computer Architecture, Hardware Engineering, Cache Management, Transactional Memory, and Memory Hierarchy which included GPU cache bypassing and warp throttling, hardware implementation of transactional memory on GPUs, heterogeneous shared cache resource contention algorithms, and microarchitectural comparisons between Intel Xeon Phi and Nvidia GPU accelerators.. Held the Economic Development Assistantship.
+	\vspace{8pt}Research in Computer Architecture, Hardware Engineering, Cache Management, Transactional Memory, and Memory Hierarchy which included GPU cache bypassing and warp throttling, hardware implementation of transactional memory on GPUs, heterogeneous shared cache resource contention algorithms, and microarchitectural comparisons between Intel Xeon Phi and Nvidia GPU accelerators. Held the Economic Development Assistantship.
 	\vspace{-0.2in}
 	\begin{tabbing}
 		\hspace{4.35in}\= \kill % set up two tab positions
@@ -73,7 +118,7 @@
 		Southeastern Louisiana University \>  February 2010 \texttt{-} June 2010
 		
 	\end{tabbing}\vspace{-20pt}
-	Assisted in faculty research projects by testing incoming hardware peripherals via programming and hyperterminal. Presented research on internet-based teleoperations of a mobile robot (Pioneer 3AT).
+	\vspace{8pt}Assisted in faculty research projects by testing incoming hardware peripherals via programming and hyperterminal. Presented research on internet-based teleoperations of a mobile robot (Pioneer 3AT).
 
    
 	    
